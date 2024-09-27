@@ -1,0 +1,12 @@
+1
+00:00:00,200 --> 00:00:10,133
+This is our fabric warehouse for cutting
+
+2
+00:00:10,133 --> 00:00:12,700
+rolling
+
+3
+00:00:12,700 --> 00:00:18,966
+and sample cutting work
+

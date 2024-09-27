@@ -1,0 +1,16 @@
+@charset "utf-8";
+.bobytextile {
+    background-color: #FAF4F4;
+    margin-top: 20px;
+}
+.h1 {
+    font-size: 19px;
+}
+.imgsocial {
+    width: 300px;
+    height: 400px;
+    margin-top: 21px;
+    margin-right: 5px;
+    border-right-width: 2px;
+    border-right-style: double;
+}

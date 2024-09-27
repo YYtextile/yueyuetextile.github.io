@@ -1,0 +1,157 @@
+@charset "utf-8";
+<style>
+		*{
+    padding: 0;
+    margin: 0;
+			 width: 1024px;
+		}
+		li{
+    list-style: none;
+    height: 67px;
+    cursor: pointer;
+    text-align: left;
+    left: 34px;
+    overflow-x: no-display;
+    width: 133px;
+		}
+		.box{
+    width: 180px;
+    height: auto;
+    background-image: -webkit-linear-gradient(270deg,rgba(234,242,255,1.00) 0%,rgba(255,227,227,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(234,242,255,1.00) 0%,rgba(255,227,227,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(234,242,255,1.00) 0%,rgba(255,227,227,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(234,242,255,1.00) 0%,rgba(255,227,227,1.00) 100%);
+		}
+		li:hover{
+			background-color: #E8BFC0;
+	            color:#3D0304;
+		}
+		
+	
+		.oneMeun{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: italic;
+    text-shadow: 0.3px 0.4px 0.5px #100A0B;
+    width: 52px;
+    line-height: 23px;
+		}	
+		
+    
+.catalog {
+    margin-top: 14px;
+    float: left;
+    width: 143px;
+}
+    .sectioncontact {
+    clear: both;
+}
+    .bobytextile {
+    width: auto;
+    height: 931px;
+}
+
+
+	
+    
+
+    
+
+
+.1knit {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    width: 50px;
+    font-style: italic;
+    font-size: small;
+		}
+
+.sectright {
+    margin-top: 14px;
+    float: left;
+}
+.knit1img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+		}
+
+       
+        .shell{
+    /* 设置两边阴影 */
+            
+    overflow-x: auto;
+    display: flex;
+    /* 设置间距 */
+    gap: 5rem;
+    align-items: start;
+    padding: 10px;
+    width: 1024px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+        }
+        .shell>div{
+            block-size: 150px;
+            background-color: #fff;
+            /* 设置宽高比 */
+            aspect-ratio: 1;
+            border-radius: 10px;
+            box-shadow: 0 0 5px 5px rgba(173, 173, 173, 0.3);
+        }
+        .shell img{
+            height: 150px;
+            width: 150px;
+        }
+
+        /* 设置滚动条的高度 */
+        ::-webkit-scrollbar{
+            height: 8px;
+        }
+        /* 设置滚动条的背景色 */
+        ::-webkit-scrollbar-track{
+            background-color: #f5f5f5;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: rgb(128, 215, 239);
+            border-radius: 7px;
+        }
+		
+		
+
+  
+.video {
+    width: 574px;
+    float: right;
+    margin-top: 61px;
+}
+  
+    .righttextile {
+    width: 450px;
+    float: left;
+}
+    .h1 {
+    margin-top: 8px;
+    text-shadow: 2px 2px 2px #380405;
+    line-height: 36px;
+}
+    .h5 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-shadow: 0px 0px 0px;
+    line-height: 31px;
+    font-weight: bolder;
+}
+</style>
+.imgproduct {
+}
+.imgproduct {
+    width: 100px;
+    height: 100px;
+}
+.product {
+    float: left;
+    width: 870px;
+    height: auto;
+    margin-top: 16px;
+    padding-left: 1px;
+}

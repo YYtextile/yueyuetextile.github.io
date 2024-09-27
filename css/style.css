@@ -1,0 +1,727 @@
+@charset "utf-8";
+h1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: oblique;
+    font-weight: 500;
+    text-shadow: 2px 2px 1px #DEB8B9;
+}
+
+
+p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: medium;
+}
+.sectioncontact {
+    background-color: black;
+    color: white;
+    font-size: xx-small;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.sectioncontact {
+    background-color: black;
+    color: white;
+    font-size: xx-small;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+ 
+}
+footer {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: oblique;
+    font-size: x-small;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.footer1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    float: left;
+}
+.footer2 {
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+}
+header {
+    text-align: center;
+    clear: both;
+}
+
+
+.footer3 {
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    float: left;
+}
+.bobytextile {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    border-top: 10px solid black;
+    border-bottom: 10px solid #000000;
+}
+body {
+    background-image: -webkit-linear-gradient(270deg,rgba(236,244,242,1.00) 0%,rgba(237,241,215,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(236,244,242,1.00) 0%,rgba(237,241,215,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(236,244,242,1.00) 0%,rgba(237,241,215,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(236,244,242,1.00) 0.00%,rgba(237,241,215,1.00) 100%);
+}
+a {
+    color: #D40204;
+    text-decoration: none;
+}
+.navhome {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+    background-image: url(../imags/navhome.png);
+    background-size: contain;
+    background-position: 0% 20px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
+.navfabric {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 20px;
+    
+}
+.navnew {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 20px;
+}
+.navaboutus {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+}
+.navcontact {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+}
+.navhome:hover {
+    background-position: 0px 0px;
+    color: #F2F0F0;
+}
+h2  {
+    /* [disabled]font-variant: small-caps; */
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 1.5px 1px 0.5px #F6D6D6;
+}
+
+
+
+@media (max-width : 772px ){
+nav {
+    background-color: #0F0E0E;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: small;
+    font-weight: 300;
+ 
+}
+.navhome {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 70px;
+    background-image: url(../imags/navhome.png);
+    background-size: contain;
+    background-position: 0% 20px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+.navfabric {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 20px;
+    
+}
+.navnew {
+    margin-left: 5px;
+    margin-right: 2px;
+    padding-top: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 20px;
+}
+.navaboutus {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 70px;
+}
+.navcontact {
+    margin-left: 5px;
+    margin-right: 3px;
+    padding-top: 70px;
+}
+.navhome:hover {
+    background-position: 0px 0px;
+    color: #F2F0F0;
+}
+
+
+
+
+
+
+
+}
+
+@media (max-width : 648px ){
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: oblique;
+    font-size: 1.2em;
+ 
+}
+.navhome {
+    margin-left: 3px;
+    margin-right: 7px;
+    padding-top: 70px;
+    background-image: url(../imags/navhome.png);
+    background-size: contain;
+    background-position: 0% 20px;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.navfabric {
+    margin-left: 3px;
+    margin-right: 10px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    
+}
+.navnew {
+    margin-left: 3px;
+    margin-right: 10px;
+    padding-top: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.navaboutus {
+    margin-left: 3px;
+    margin-right: 10px;
+    padding-top: 70px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.navcontact {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 70px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.logo {
+    width: 17%;
+    height: 17%;
+}
+
+
+
+
+
+
+
+}
+.logo {
+
+}
+.knithome {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 78px;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-image: url(../imags/knit/knit.png);
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.wovenhome {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 78px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../imags/woven/woven1.png);
+    background-position: 0% -8px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.lacehome {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 78px;
+    float: left;
+    background-image: url(../imags/lace/lace.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.knithome:hover {
+    background-position: 0px 0px;
+    color: #324C45;
+    font-size: large;
+}
+.wovenhome:hover {
+    background-position:0px 0px;
+	color: #324C45;
+    font-size: large;
+}
+.lacehome:hover {
+    background-position: 48% 0px;
+    color: #324C45;
+    font-size: large;
+}
+
+
+.meshhome {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 78px;
+    float: left;
+    background-image: url(../imags/mesh/mesh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    background-position: 0% -70%;
+}
+.meshhome:hover {
+    background-position: 0px 0px;
+    color: #324C45;
+    font-size: large;
+}
+.knit1home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 86px;
+    float: left;
+    background-image: url(../imags/knit/knit.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.knit2home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 86px;
+    float: left;
+    background-image: url(../imags/knit/knit2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.knit3home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 86px;
+    float: left;
+    background-image: url(../imags/knit/knit3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.knit4home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 86px;
+    float: left;
+    background-image: url(../imags/knit/knit4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.knit5home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 86px;
+    float: left;
+    background-image: url(../imags/knit/knit5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.knit1home:hover {
+    background-position:36% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.knit2home:hover {
+   background-position:35% 0px;
+	color: #324C45;
+    font-size: large;
+}
+
+.knit3home:hover {
+    background-position:40% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.knit4home:hover {
+    background-position:46% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.knit5home:hover {
+    background-position:32% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.woven1home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 88px;
+    float: left;
+    background-image: url(../imags/woven/woven1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.woven2home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 88px;
+    background-image: url(../imags/woven/woven2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.woven3home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 88px;
+    float: left;
+    background-image: url(../imags/woven/woven3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.woven4home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 88px;
+    background-image: url(../imags/woven/woven4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.woven5home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 88px;
+    float: left;
+    background-image: url(../imags/woven/woven5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.woven1home:hover {
+    background-position:29% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.woven2home:hover {
+     background-position:28% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.woven3home:hover {
+    background-position:31% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.woven4home:hover {
+    background-position:41% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.woven5home:hover {
+    background-position:0% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.lace1home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 90px;
+    float: left;
+    background-image: url(../imags/lace/lace.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.lace2home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 90px;
+    float: left;
+    background-image: url(../imags/lace/lace2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.lace3home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 90px;
+    float: left;
+    background-image: url(../imags/lace/lace3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.lace4home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 90px;
+    float: left;
+    background-image: url(../imags/lace/lace4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.lace5home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 90px;
+    float: left;
+    background-image: url(../imags/lace/lace5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.mesh1home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 87px;
+    float: left;
+    background-image: url(../imags/mesh/mesh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.mesh2home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 87px;
+    float: left;
+    background-image: url(../imags/mesh/mesh2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.mesh3home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 87px;
+    float: left;
+    background-image: url(../imags/mesh/mesh3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.mesh4home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 87px;
+    float: left;
+    background-image: url(../imags/mesh/mesh4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.mesh5home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 87px;
+    float: left;
+    background-image: url(../imags/mesh/mesh5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.lace1home:hover {
+    background-position:46% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.lace2home:hover {
+    background-position: 0% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.lace3home:hover {
+    background-position: 46% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.lace4home:hover {
+    background-position: 0px 0px;
+	color: #324C45;
+    font-size: large;
+}
+.lace5home:hover {
+    background-position: 42% 0px;
+	color: #324C45;
+    font-size: large;
+}
+.mesh1home:hover {
+   background-position: 27% 0px;
+	color: #324C45;
+    font-size: large
+}
+.mesh2home:hover {
+    background-position: 47% 0px;
+	color: #324C45;
+    font-size: large
+}
+.mesh3home:hover {
+    background-position: 28% 0px;
+	color: #324C45;
+    font-size: large
+}
+.mesh4home:hover {
+    background-position: 0% 0px;
+	color: #324C45;
+    font-size: large
+}
+.mesh5home:hover {
+    background-position: 33% 0px;
+	color: #324C45;
+    font-size: large
+}
+.contactli {
+    margin-top: -10px;
+    border: 0.7px solid #F29496;
+
+}
+.contactli:hover {
+    margin-top: -18px;
+	border: 0.7px solid ##324C45;
+   
+}
